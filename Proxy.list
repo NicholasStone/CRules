@@ -1,14 +1,9 @@
 # 代理补充列表
 
-# 域名后缀匹配
+# 其他
 DOMAIN-SUFFIX,qichiyu.com
-
-# 域名关键字匹配
-DOMAIN-KEYWORD,1e100
-
-# IP段匹配
-IP-CIDR,142.171.133.131/32,no-resolve
-IP-CIDR,103.115.43.2/32,no-resolve
+DOMAIN-KEYWORD,18comic
+DOMAIN-KEYWORD,jmc
 
 # 国外DNS
 DOMAIN-SUFFIX,dns.google
@@ -30,8 +25,11 @@ IP-CIDR,185.222.222.222/32,no-resolve
 IP-CIDR,208.67.222.222/32,no-resolve
 IP-CIDR,208.67.220.220/32,no-resolve
 
+# 域名关键字匹配
+# DOMAIN-KEYWORD,1e100
 
-# 其他
-DOMAIN-SUFFIX,qichiyu.com
-DOMAIN-KEYWORD,18comic
-DOMAIN-KEYWORD,jmc
+# IP段匹配
+# IP-CIDR,142.171.133.131/32,no-resolve
+
+# 域名后缀匹配
+# DOMAIN-SUFFIX,qichiyu.com
