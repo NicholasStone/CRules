@@ -33,3 +33,4 @@ IP-CIDR,208.67.220.220/32,no-resolve
 
 # 域名后缀匹配
 # DOMAIN-SUFFIX,qichiyu.com
+DOMAIN-SUFFIX,18comic.vip
