@@ -4,6 +4,7 @@
 DOMAIN-SUFFIX,qichiyu.com
 DOMAIN-KEYWORD,18comic
 DOMAIN-KEYWORD,jmc
+DOMAIN-KEYWORD,mikanani
 
 # 国外DNS
 DOMAIN-SUFFIX,dns.google
@@ -32,5 +33,5 @@ IP-CIDR,208.67.220.220/32,no-resolve
 # IP-CIDR,142.171.133.131/32,no-resolve
 
 # 域名后缀匹配
-# DOMAIN-SUFFIX,qichiyu.com
-DOMAIN-SUFFIX,18comic.vip
+#DOMAIN-SUFFIX,qichiyu.com
+#DOMAIN-SUFFIX,18comic.vip
