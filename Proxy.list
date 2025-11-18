@@ -7,6 +7,30 @@ DOMAIN-KEYWORD,jmc
 DOMAIN-KEYWORD,mikan
 DOMAIN-KEYWORD,dlsite
 
+# GitHub 相关
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,github.dev
+DOMAIN-SUFFIX,githubpreview.dev
+DOMAIN-SUFFIX,githubuniverse.com
+DOMAIN-SUFFIX,githubhackathon.com
+DOMAIN-SUFFIX,githubnext.com
+DOMAIN-SUFFIX,githubstatus.com
+DOMAIN-SUFFIX,githubcommunity.com
+DOMAIN-SUFFIX,github.blog
+DOMAIN-SUFFIX,github.community
+DOMAIN-SUFFIX,githubapp.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,myoctocat.com
+DOMAIN-SUFFIX,npm.community
+DOMAIN-SUFFIX,npmjs.com
+DOMAIN-SUFFIX,npmjs.org
+DOMAIN-SUFFIX,opensource.guide
+DOMAIN-SUFFIX,rawgit.com
+DOMAIN-SUFFIX,rawgithub.com
+DOMAIN-SUFFIX,repo.new
+DOMAIN-SUFFIX,thegithubshop.com
+DOMAIN-KEYWORD,github
+
 # 国外DNS
 DOMAIN-SUFFIX,dns.google
 DOMAIN-SUFFIX,1dot1dot1dot1.cloudflare-dns.com
