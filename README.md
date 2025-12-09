@@ -53,7 +53,7 @@ CRuls/
 - 基于 [ACL4SSR_Online_Full.ini](https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/config/ACL4SSR_Online_Full.ini) 修改
 - **27 个规则集**，**16,631 条规则**
 - 包含详细的策略组（Google、微软、苹果、游戏、流媒体等）
-- 地区节点分组（香港、台湾、日本、美国、新加坡、韩国）
+- 地区节点分组（香港、台湾、日本、美国、新加坡、韩国、Cloudflare）
 - 引用了仓库内的 `Direct.list` 和 `Proxy.list` 作为自定义规则
 
 **适用场景：**
@@ -109,6 +109,28 @@ CRuls/
 - 国外 DNS 服务（Google DNS: 8.8.8.8, Cloudflare: 1.1.1.1 等）
 - 特殊网站关键字
 - 自定义代理域名
+
+### 节点分组说明
+
+所有配置文件都包含以下节点分组：
+
+| 分组 | 类型 | 说明 |
+|------|------|------|
+| 🇭🇰 香港节点 | url-test | 匹配包含"港"、"HK"、"Hong Kong"等关键词的节点 |
+| 🇨🇳 台湾节点 | url-test | 匹配包含"台"、"TW"、"Taiwan"等关键词的节点 |
+| 🇯🇵 日本节点 | url-test | 匹配包含"日本"、"JP"、"Japan"等关键词的节点 |
+| 🇺🇲 美国节点 | url-test | 匹配包含"美"、"US"、"United States"等关键词的节点 |
+| 🇸🇬 狮城节点 | url-test | 匹配包含"新加坡"、"SG"、"Singapore"等关键词的节点 |
+| 🇰🇷 韩国节点 | url-test | 匹配包含"KR"、"Korea"、"韩"等关键词的节点 |
+| ☁️ Cloudflare | url-test | 匹配包含"Cloudflare"、"CF"、"CDN"等关键词的节点 ⭐ 新增 |
+| ♻️ 自动选择 | url-test | 自动选择延迟最低的节点 |
+| 🚀 节点选择 | select | 手动选择节点 |
+| 🚀 手动切换 | select | 手动切换节点 |
+
+**Cloudflare 分组说明：**
+- 专门为 Cloudflare CDN 节点设计
+- 匹配包含 Cloudflare、CF、CDN、Trojan-WS-TLS 等关键词的节点
+- 适合需要稳定 CDN 加速的场景
 
 ## 🛠️ 工具脚本
 
