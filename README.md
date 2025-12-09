@@ -266,4 +266,3 @@ python3 scripts/generate_ruleset.py
 ---
 
 **最后更新**: 2025-12-09
-**维护者**: NicholasStone
