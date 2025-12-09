@@ -241,16 +241,6 @@ python3 scripts/generate_ruleset.py
 
 不可以。每次只能使用一个配置文件，但可以随时切换。
 
-## 📈 性能对比
-
-基于 M1 MacBook Pro 测试：
-
-| 配置 | 加载时间 | 内存占用 | 规则匹配速度 |
-|------|---------|---------|-------------|
-| rules.ini | 2.3s | 85MB | 基准 |
-| rules_optimized.ini | 2.1s | 83MB | +9% |
-| rule_mini.ini | 0.1s | 15MB | +2300% ⚡ |
-
 ## 🙏 致谢
 
 - [ACL4SSR](https://github.com/ACL4SSR/ACL4SSR) - 基础规则集
