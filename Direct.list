@@ -6,3 +6,4 @@ DOMAIN-SUFFIX,checkip.amazonaws.com
 DOMAIN-SUFFIX,0x7fff.top
 DOMAIN-SUFFIX,amf653.com
 DOMAIN-SUFFIX,n0709.vo0.site
+IP-CIDR,14.116.246.195/32,no-resolve
