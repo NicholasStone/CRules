@@ -1,10 +1,13 @@
 # 直连补充列表(国内域名不解析时，防止走代理使用)
 
 DOMAIN-KEYWORD,deepseek
+DOMAIN-KEYWORD,mihoyo
+DOMAIN-KEYWORD,hypergryph
 
 DOMAIN-SUFFIX,service.lan
 DOMAIN-SUFFIX,nichospace.com
 DOMAIN-SUFFIX,0x7fff.top
 DOMAIN-SUFFIX,checkip.amazonaws.com
 DOMAIN-SUFFIX,amf653.com
+DOMAIN-SUFFIX,flheixzxakkpxovzras8wseqflheixzxakkfl.top
 IP-CIDR,14.116.246.195/32,no-resolve
