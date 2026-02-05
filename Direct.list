@@ -7,8 +7,8 @@ DOMAIN-KEYWORD,nichospace
 
 # 内网
 DOMAIN-SUFFIX,service.lan
-DOMAIN-SUFFIX.ecs.lan
-DOMAIN-SUFFIX.local.dev
+DOMAIN-SUFFIX,ecs.lan
+DOMAIN-SUFFIX,local.dev
 
 # 已知不需要代理的
 DOMAIN-SUFFIX,0x7fff.top
